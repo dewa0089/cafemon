@@ -42,12 +42,6 @@ export default {
    setProducts(data) {
      this.products = data;
    },
-   searchFood() {
-     axios
-     .get("https://testapi-pink.vercel.app/products/q=/"+this.search)
-     .then((response) => this.setProducts(response.data))
-     .catch((error) => console.log(error));
-   }
  },
  mounted() {
    axios
