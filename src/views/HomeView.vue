@@ -83,9 +83,9 @@
     img-alt="Card Image"
     text-variant="white"
   >
-  <h1 class="text-center mt-5"><strong>Contact Email CAFE MOON</strong></h1>
-  <div class="text-center mr-5 ml-5 mt-4">
-    <b-form-input class="my-5 mb-4 text-center" size="lg" v-model="text" placeholder="Send your feedback about us"></b-form-input>
+  <h1 class="text-center mt-2"><strong>Contact Email CAFE MOON</strong></h1>
+  <div class="text-center mr-5 ml-5 mt-2">
+    <b-form-input class="my-3 mb-4 text-center" size="lg" v-model="text" placeholder="Send your feedback about us"></b-form-input>
     <b-button size="lg" class=" bg-primary" to="feedback">SUBMIT</b-button>
   </div>
   </b-card>
