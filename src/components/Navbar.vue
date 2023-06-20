@@ -3,7 +3,7 @@
   <div>
     <b-navbar toggleable="lg" type="light" class="bg-primary">
       <div class="container">
-        <b-navbar-brand href="#"><b-icon-moon-stars-fill></b-icon-moon-stars-fill>CAFE MON ||</b-navbar-brand>
+        <b-navbar-brand href="#"><b-icon-moon-stars-fill></b-icon-moon-stars-fill>CAFE MOON ||</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
