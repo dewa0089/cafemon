@@ -5,8 +5,8 @@
       <div class="row justify-content-center mt-5">
         <div class="col text-center">
           <img src="../assets/images/menunggu.png" width="300" />
-          <h2><strong>Sukses!!</strong></h2>
-          <h4>Pesanan Anda segera diproses <br> Selamat Menunggu</h4>
+          <h2><strong>Terima Kasih</strong></h2>
+          <h4>Atas Masukan Anda<br> Selamat Berbelanja Di Cafe Moon</h4>
           <router-link to="/" class="btn btn-primary"><h5><Strong>Kembali Kehalaman Awal</Strong></h5></router-link>
         </div>
       </div>
@@ -18,7 +18,7 @@
 import Navbar from "@/components/Navbar.vue";
 
 export default {
-  name: "PesananSuksesCafe",
+  name: "Feedback-cafe",
   components: {
     Navbar,
   },

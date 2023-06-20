@@ -52,7 +52,7 @@
                   <td>
                     <strong>{{ keranjang.products.nama }}</strong>
                   </td>
-                  <td>{{ keranjang.keterangan ? keranjang.keterangan : "-" }}</td>
+                  <td>{{ keranjang.keterangan }}</td>
                   <td>{{ keranjang.jumlah_pemesanan }}</td>
                   <td align="right">Rp. {{ keranjang.products.harga }}</td>
                   <td align="right">
@@ -91,7 +91,7 @@
               <input type="text" class="form-control" v-model="pesan.nomor_meja" />
             </div>
 
-            <button type="submit" class="btn btn-success float-right" @click="checkout">
+            <button type="submit" class="btn btn-primary float-right" @click="checkout">
               <b-icon-cart></b-icon-cart>Pesan
             </button>
           </form>
@@ -155,8 +155,8 @@ export default {
             });
 
             this.$router.push({ path: "/pesanan-sukses" });
-            this.$toast.success("Sukses Dipesan", {
-              type: "success",
+            this.$toast.info("Sukses Dipesan", {
+              type: "info",
               position: "top-right",
               duration: 3000,
               dismissible: true,

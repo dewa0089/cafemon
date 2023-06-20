@@ -1,8 +1,9 @@
 <template>
+
   <div>
-    <b-navbar toggleable="lg" type="light">
+    <b-navbar toggleable="lg" type="light" class="bg-primary">
       <div class="container">
-        <b-navbar-brand href="#">CAFE MON</b-navbar-brand>
+        <b-navbar-brand href="#"><b-icon-moon-stars-fill></b-icon-moon-stars-fill>CAFE MON ||</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -26,7 +27,7 @@
                 Keranjang
                 <b-icon-bag></b-icon-bag>
                 <span
-                  class="badge badge-success ml-2"
+                  class="badge badge-dark ml-2"
                 >{{ updateKeranjang ? updateKeranjang.length : jumlah_pesanans.length }}</span>
               </router-link>
             </li>
@@ -34,6 +35,10 @@
         </b-collapse>
       </div>
     </b-navbar>
+
+
+
+    
   </div>
 </template>
 

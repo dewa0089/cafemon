@@ -43,7 +43,7 @@
                 placeholder="Keterangan spt : Pedes, Nasi Setengah .."
               ></textarea>
             </div>
-            <button type="submit" class="btn btn-success" @click="pemesanan">
+            <button type="submit" class="btn btn-primary" @click="pemesanan">
               <b-icon-cart></b-icon-cart>Pesan
             </button>
           </form>
@@ -75,16 +75,23 @@ export default {
       this.product = data;
     },
     pemesanan() {
-      if (this.pesan.jumlah_pemesanan) {
+      if (this.pesan.jumlah_pemesanan , this.pesan.keterangan) {
         this.pesan.products = this.product;
         axios
           .post("https://testapi-pink.vercel.app/keranjang", this.pesan)
           .then(() => {
             this.$router.push({ path: "/keranjang"})
+            this.$toast.info("Sukses Masuk Keranjang", {
+              type: "info",
+              position: "top-right",
+              duration: 3000,
+              dismissible: true,
+            });
           })
           .catch((err) => console.log(err));
-      } else {
-        this.$toast.error("Jumlah Pesanan Harus diisi", {
+      }
+       else {
+        this.$toast.error("Jumlah Pesanan Dan Keterangan Harus diisi", {
           type: "error",
           position: "top-right",
           duration: 3000,
