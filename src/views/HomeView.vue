@@ -79,13 +79,13 @@
         <!-- Dekstop -->
         <b-card class="mt-5 mb-5 d-none d-md-block"
     overlay
-    img-src="https://picsum.photos/900/250/?image=3"
+    img-src="https://picsum.photos/1024/400/?image=41"
     img-alt="Card Image"
     text-variant="white"
   >
-  <h1 class="text-center"><strong>Contact Email CAFE MOON</strong></h1>
-  <div class="text-center mr-5 ml-5">
-    <b-form-input class="my-4 mb-4 text-center" size="lg" v-model="text" placeholder="Send your feedback about us"></b-form-input>
+  <h1 class="text-center mt-5"><strong>Contact Email CAFE MOON</strong></h1>
+  <div class="text-center mr-5 ml-5 mt-4">
+    <b-form-input class="my-5 mb-4 text-center" size="lg" v-model="text" placeholder="Send your feedback about us"></b-form-input>
     <b-button size="lg" class=" bg-primary" to="feedback">SUBMIT</b-button>
   </div>
   </b-card>
@@ -93,13 +93,13 @@
       <!-- Mobile -->
   <b-card class="mt-5 mb-5 d-sm-block d-md-none"
     overlay
-    img-src="https://picsum.photos/900/250/?image=3"
+    img-src="https://picsum.photos/1024/400/?image=41"
     img-alt="Card Image"
     text-variant="white"
   >
-  <div class="text-center mr-4 ml-4">
   <p class="text-center"><strong>Contact Email CAFE MOON</strong></p>
-    <b-form-input class="mb-1 text-center" size="sm" v-model="text" placeholder="Send your feedback about us"></b-form-input>
+  <div class="text-center mr-4 ml-4">
+    <b-form-input class="mb-2 text-center" size="sm" v-model="text" placeholder="Send your feedback about us"></b-form-input>
     <b-button size="sm" class=" bg-primary" to="feedback">SUBMIT</b-button>
   </div>
   </b-card>
