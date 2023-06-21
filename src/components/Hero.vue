@@ -12,7 +12,7 @@
                 </h2>
                 <p>Ayo segera pilih dan pesan makanan favorit Anda</p>
                 <router-link class="btn btn-lg btn-primary" to="/foods">
-                  <b-icon-arrow-right></b-icon-arrow-right>Pesan
+                  <b-icon-arrow-right></b-icon-arrow-right> Pesan
                 </router-link>
               </div>
             </div>
@@ -38,7 +38,7 @@
                 </h2>
                 <p>Ayo segera pilih dan pesan makanan favorit Anda</p>
                 <button class="btn btn-lg btn-success">
-                  <b-icon-arrow-right></b-icon-arrow-right>Pesan
+                  <b-icon-arrow-right></b-icon-arrow-right> Pesan
                 </button>
               </div>
             </div>

@@ -57,7 +57,7 @@
         <div class="col">
           <h2 class="text-center">
             
-            <strong>Best Foods Menu</strong>
+            <strong>OUR FAVORITE MENU</strong>
           </h2>
         </div>
       </div>
@@ -70,7 +70,7 @@
       </div>
       <div class="col mb-5 text-center">
           <router-link to="/foods" class="btn btn-primary" >
-            <b-icon-eye></b-icon-eye>Load More Menu
+            <b-icon-eye></b-icon-eye> Load More Menu
           </router-link>
         </div>
       
